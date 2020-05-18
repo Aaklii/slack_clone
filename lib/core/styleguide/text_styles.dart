@@ -3,7 +3,7 @@ import 'colors.dart';
 
 
 //TextField
-class KTextField {
+class KTextStyles {
 
   //////////////////****Channel Page****BEGIN*****//////////////////
 
@@ -61,7 +61,7 @@ class KTextField {
     fontFamily: 'Roboto',
   );
 
-  static TextStyle postTimeStampTextColor = TextStyle(
+  static TextStyle postTimeStampTextStyle = TextStyle(
     fontSize: 10.0,
     color: KColors.postTimeStampTextColor,
     fontWeight: FontWeight.normal,
