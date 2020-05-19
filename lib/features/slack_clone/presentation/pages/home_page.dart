@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:slackclone/features/slack_clone/presentation/pages/conversation_page.dart';
 import 'package:slackclone/features/slack_clone/presentation/pages/channel_page.dart';
 
 class HomePage extends StatefulWidget {

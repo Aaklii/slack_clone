@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      title: 'App Title',
+      title: 'SlackClone',
       home: HomePage(),
       debugShowCheckedModeBanner: false,
     );

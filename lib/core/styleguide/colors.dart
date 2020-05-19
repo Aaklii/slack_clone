@@ -24,6 +24,13 @@ class KColors {
   //************Channel List*************//
   static Color channelListTextColor = const Color(0xFF9AA1A9);
 
+  //************SChannel Item*************//
+//selectedChannel
+  static Color channelItemHighlightColor = Color(0xFF204884);
+  static Color channelItemSplashColor = Color(0xFF4585E8);
+  static Color selectedChannelTextColor = Color(0xFFFFFFFF);
+
+
 
   //////////////////****Channel Page****END*****//////////////////
 
