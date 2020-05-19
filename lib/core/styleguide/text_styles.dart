@@ -18,7 +18,7 @@ class KTextStyles {
 
 //************Channels Title*************//
   static TextStyle channelsTitleTextStyle = TextStyle(
-    fontSize: 18.0,
+    fontSize: 24.0,
     color: KColors.channelsTitleTextColor,
     fontWeight: FontWeight.w600,
     fontFamily: 'Roboto',
@@ -33,9 +33,9 @@ class KTextStyles {
 
 //************Channel List*************//
   static TextStyle defaultChannelItemTextStyle = TextStyle(
-    fontSize: 16.0,
+    fontSize: 18.0,
     color: KColors.channelListTextColor,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.w400,
     fontFamily: 'Roboto',
   );
 

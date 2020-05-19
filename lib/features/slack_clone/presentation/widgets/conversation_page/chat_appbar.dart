@@ -16,10 +16,13 @@ class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
         style: KTextStyles.appBarTextStyle,
       ),
       backgroundColor: KColors.appBarBackgroundColor,
-      leading: Icon(
-        Icons.arrow_back_ios,
-        size: 20,
-        color: KColors.appBarTextIconColor,
+      leading: IconButton(
+        icon: Icon(
+          Icons.arrow_back_ios,
+          size: 20,
+          color: KColors.appBarTextIconColor,
+        ),
+        onPressed: ()=>Navigator.pop(context),
       ),
       titleSpacing: 0.0,
       actions: <Widget>[
