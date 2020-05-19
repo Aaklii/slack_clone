@@ -11,11 +11,10 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-        child: PageView(
-      children: [
-        ChannelPage(),
-        ConversationPage()
-      ],
-    ));
+      child: ChannelPage(),
+//      child: PageView(
+//        children: [ChannelPage(), ConversationPage()],
+//      ),
+    );
   }
 }

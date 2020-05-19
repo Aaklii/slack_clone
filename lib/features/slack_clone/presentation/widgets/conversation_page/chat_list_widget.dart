@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'chat__list_item_widget.dart';
+import 'chat_item_card.dart';
 
 class ChatListWidget extends StatelessWidget {
   final ScrollController listScrollController = new ScrollController();
@@ -9,7 +10,7 @@ class ChatListWidget extends StatelessWidget {
     // TODO: implement build
     return ListView.builder(
       padding: EdgeInsets.all(10.0),
-      itemBuilder: (context, index) => ChatItemWidget(index),
+      itemBuilder: (context, index) => ChatItemCard(index),
       itemCount: 20,
       reverse: true,
       controller: listScrollController,

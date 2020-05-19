@@ -64,3 +64,24 @@ class KColors {
   //////////////////Conversation Page****END*****//////////////////
 
 }
+
+
+//PostProfileIconColors
+final kcOrangeProfileIconColor = Color(0xFFFD8E3C);
+final kcGreenProfileIconColor = Color(0xFF63B679);
+final kcYellowProfileIconColor = Color(0xFFFCC736);
+final kcBlueProfileIconColor = Color(0xFF27B6C0);
+final kcVioletProfileIconColor = Color(0xFF8083DF);
+final kcPinkProfileIconColor = Color(0xFFE7569F);
+final kcRedProfileIconColor = Color(0xFFEF7354);
+
+//List of PostProfileIconColors
+final List<Color> kcListPostProfileIconColors = [
+  kcOrangeProfileIconColor,
+  kcGreenProfileIconColor,
+  kcYellowProfileIconColor,
+  kcBlueProfileIconColor,
+  kcVioletProfileIconColor,
+  kcPinkProfileIconColor,
+  kcRedProfileIconColor,
+];
