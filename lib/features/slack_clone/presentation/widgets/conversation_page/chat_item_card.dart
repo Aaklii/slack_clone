@@ -60,37 +60,6 @@ class ChatItemCard extends StatelessWidget {
         ),
       ),
     );
-
-//      return Container(
-//        child: Column(
-//          children: <Widget>[
-//            Row(
-//              children: <Widget>[
-//                Container(
-//                  child: Text(
-//                    'This is a received message',
-//                    style: TextStyle(color: Colors.black),
-//                  ),
-//                  padding: EdgeInsets.fromLTRB(15.0, 10.0, 15.0, 10.0),
-//                  width: 200.0,
-//                  decoration: BoxDecoration(
-//                      color: Colors.blueAccent,
-//                      borderRadius: BorderRadius.circular(8.0)),
-//                  margin: EdgeInsets.only(left: 10.0),
-//                )
-//              ],
-//            ),
-//            Container(
-//              child: Text(
-//                style: KTextStyles.postTextStyle,
-//              ),
-//              margin: EdgeInsets.only(left: 5.0, top: 5.0, bottom: 5.0),
-//            )
-//          ],
-//          crossAxisAlignment: CrossAxisAlignment.start,
-//        ),
-//        margin: EdgeInsets.only(bottom: 10.0),
-//      );
   }
 }
 

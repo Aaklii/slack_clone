@@ -6,7 +6,6 @@ import 'package:slackclone/features/slack_clone/presentation/pages/conversation_
 class ChannelItemWidget extends StatelessWidget {
 
   final String channelName;
-
   const ChannelItemWidget({Key key, this.channelName}) : super(key: key);
 
   @override

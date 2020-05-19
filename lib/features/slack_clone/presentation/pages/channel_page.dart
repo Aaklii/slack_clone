@@ -9,6 +9,8 @@ import 'data.dart';
 class ChannelPage extends StatefulWidget {
   @override
   _ChannelPageState createState() => _ChannelPageState();
+
+  const ChannelPage();
 }
 
 class _ChannelPageState extends State<ChannelPage> {

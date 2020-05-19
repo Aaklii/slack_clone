@@ -4,6 +4,8 @@ import 'package:slackclone/features/slack_clone/presentation/pages/channel_page.
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
+
+  const HomePage();
 }
 
 class _HomePageState extends State<HomePage> {

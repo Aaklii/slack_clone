@@ -5,7 +5,8 @@ import 'package:slackclone/features/slack_clone/presentation/widgets/conversatio
 import 'package:slackclone/features/slack_clone/presentation/widgets/conversation_page/input_widget.dart';
 
 class ConversationPage extends StatelessWidget {
-  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+  const ConversationPage();
+  static final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
 
   @override
   Widget build(BuildContext context) {

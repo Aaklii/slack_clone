@@ -27,9 +27,13 @@ class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
       titleSpacing: 0.0,
       actions: <Widget>[
         //Search Icon Button
-        Icon(
-          Icons.search,
-          color: KColors.appBarTextIconColor,
+        IconButton(
+          icon: Icon(
+            Icons.search,
+            color: KColors.appBarTextIconColor,
+          ),
+          onPressed: (){},
+
         ),
         SizedBox(width: 16.0),
       ],

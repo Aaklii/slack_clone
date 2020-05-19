@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-
-import 'chat__list_item_widget.dart';
 import 'chat_item_card.dart';
 
 class ChatListWidget extends StatelessWidget {
-  final ScrollController listScrollController = new ScrollController();
+  const ChatListWidget();
+  static final ScrollController listScrollController = new ScrollController();
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
