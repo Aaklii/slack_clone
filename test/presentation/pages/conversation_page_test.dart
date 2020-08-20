@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:slackclone/features/slack_clone/presentation/pages/conversation_page.dart';
-import 'package:slackclone/features/slack_clone/presentation/widgets/conversation_page/chat_appbar.dart';
-import 'package:slackclone/features/slack_clone/presentation/widgets/conversation_page/chat_list_widget.dart';
-import 'package:slackclone/features/slack_clone/presentation/widgets/conversation_page/input_widget.dart';
+import 'package:slackclone/presentation/pages/conversation_page.dart';
+import 'package:slackclone/presentation/widgets/conversation_page/chat_appbar.dart';
+import 'package:slackclone/presentation/widgets/conversation_page/chat_list_widget.dart';
+import 'package:slackclone/presentation/widgets/conversation_page/input_widget.dart';
 
 void main() {
   const MaterialApp app = MaterialApp(

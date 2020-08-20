@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:slackclone/features/slack_clone/presentation/pages/channel_page.dart';
+import 'package:slackclone/presentation/pages/channel_page.dart';
 
 class HomePage extends StatefulWidget {
   @override

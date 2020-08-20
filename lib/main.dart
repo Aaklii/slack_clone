@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'features/slack_clone/presentation/pages/home_page.dart';
+import 'presentation/pages/home_page.dart';
 
 void main() {
   runApp(MyApp());

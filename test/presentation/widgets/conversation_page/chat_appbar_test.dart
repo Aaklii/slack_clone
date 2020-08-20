@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:slackclone/features/slack_clone/presentation/widgets/conversation_page/chat_appbar.dart';
+import 'package:slackclone/presentation/widgets/conversation_page/chat_appbar.dart';
 
 void main() {
   const MaterialApp app = MaterialApp(
