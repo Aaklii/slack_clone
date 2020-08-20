@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:slackclone/core/styleguide/colors.dart';
 import 'package:slackclone/core/styleguide/text_styles.dart';
-import 'package:slackclone/features/slack_clone/presentation/pages/conversation_page.dart';
+import 'package:slackclone/presentation/pages/conversation_page.dart';
 
 class ChannelItemWidget extends StatelessWidget {
 
